@@ -1,0 +1,10 @@
+.night {
+  --bg: #1e1e2e;
+  --surface: #2a2a3e;
+  --accent: #c9a0d4;
+  --sub: #7ecab5;
+  --info: #89b4fa;
+  --text: #cdd6f4;
+  --text-muted: #7c7a9e;
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}

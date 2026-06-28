@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <title>About</title>
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/theme.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <script src="assets/js/theme.js"></script>
+</head>
+<body data-page="about" data-page-title="About">
+  <div id="nav-placeholder"></div>
+
+  <main>
+    <section class="profile-card card" aria-label="プロフィール">
+      <img alt="" class="profile-card__avatar" width="120" height="120">
+      <h1 class="profile-card__name" id="profile-name"></h1>
+      <p class="profile-card__location" id="profile-location"></p>
+      <p class="profile-card__bio" id="profile-bio"></p>
+    </section>
+
+    <section class="skill-grid" aria-labelledby="skills-heading">
+      <h2 id="skills-heading" class="section-title">Skills</h2>
+      <div class="skill-grid__tags" id="skills-container"></div>
+    </section>
+
+    <section class="interest-list" aria-labelledby="interests-heading">
+      <h2 id="interests-heading" class="section-title">Interests</h2>
+      <div id="interests-container"></div>
+    </section>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <script src="assets/js/include.js"></script>
+  <script src="assets/js/render.js"></script>
+</body>
+</html>

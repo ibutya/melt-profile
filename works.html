@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <title>Works</title>
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/theme.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <script src="assets/js/theme.js"></script>
+</head>
+<body data-page="works" data-page-title="Works">
+  <div id="nav-placeholder"></div>
+
+  <main>
+    <h1 class="section-title">Works</h1>
+
+    <div class="works-filter" role="group" aria-label="カテゴリフィルター">
+      <button class="works-filter__btn works-filter__btn--active" data-filter="all">All</button>
+      <button class="works-filter__btn" data-filter="bot">Discord bot</button>
+      <button class="works-filter__btn" data-filter="web">Web app</button>
+      <button class="works-filter__btn" data-filter="music">Music</button>
+      <button class="works-filter__btn" data-filter="tool">Tool</button>
+    </div>
+
+    <div class="works-grid" id="works-grid"></div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <script src="assets/js/include.js"></script>
+  <script src="assets/js/render.js"></script>
+  <script src="assets/js/works-filter.js"></script>
+</body>
+</html>

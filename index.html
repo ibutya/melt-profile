@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="/api/avatar">
+  <meta property="og:type" content="website">
+  <title>Profile</title>
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/theme.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <script src="assets/js/theme.js"></script>
+</head>
+<body data-page="home">
+  <div id="nav-placeholder"></div>
+
+  <main>
+    <section class="hero" aria-label="icon">
+      <img alt="" class="hero__avatar" width="140" height="140">
+      <h1 class="hero__name" id="profile-name"></h1>
+      <p class="hero__catch" id="profile-catch"></p>
+    </section>
+
+    <section class="bio-snippet" aria-label="自己紹介">
+      <p class="bio-snippet__text" id="bio-short"></p>
+      <a href="about.html" class="btn btn--primary">About を読む</a>
+    </section>
+
+    <nav class="social-links" id="social-links" aria-label="SNSリンク"></nav>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <script src="assets/js/include.js"></script>
+  <script src="assets/js/render.js"></script>
+  <script src="assets/js/spa.js"></script> 
+</body>
+</html>
